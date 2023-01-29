@@ -3,7 +3,7 @@ class Solution{
     public:
    
     int kthSmallest(int arr[], int l, int r, int k) {
-        //code here
+        
         
         priority_queue<int> maxHeap;
         for(int i=l;i<=r;i++){
@@ -16,3 +16,4 @@ class Solution{
         return maxHeap.top();
     }    
 };
+// ham sorting bhi use kar sakte hai 
